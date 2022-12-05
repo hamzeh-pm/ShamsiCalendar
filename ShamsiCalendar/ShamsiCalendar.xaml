@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="ShamsiCalendar.ShamsiCalendar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ShamsiCalendar"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Width="238" Height="260" Background="White">
+        <Border BorderBrush="#FF569DE5" BorderThickness="3" Padding="1, 1, 1, 1" CornerRadius="10">
+            <StackPanel>
+                <Border Background="LightSteelBlue" CornerRadius="10" Padding="2, 2, 2, 2" Margin="2, 2, 2, 2">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Button x:Name="PrevMonth" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Height="25" Click="PrevMonth_Click">ماه قبل</Button>
+                        <Label x:Name="CurrentYear" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" ></Label>
+                        <Label x:Name="CurrentMonth" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" ></Label>
+                        <Button x:Name="NextMonth" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Height="25" Click="NextMonth_Click">ماه بعد</Button>
+                    </Grid>
+                </Border>
+                <Border Background="#555" CornerRadius="10">
+                    <WrapPanel   FlowDirection="RightToLeft" Margin="2,10,2,0">
+                        <WrapPanel.Resources>
+                            <Style TargetType="Label">
+                                <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                                <Setter Property="FlowDirection" Value="RightToLeft"></Setter>
+                                <Setter Property="Foreground" Value="White"></Setter>
+                                <Setter Property="FontWeight" Value="Bold"></Setter>
+                                <Setter Property="FontSize" Value="10"></Setter>
+                            </Style>
+                        </WrapPanel.Resources>
+                        <Label Width="32" Height="24">ش</Label>
+                        <Label  Width="32" Height="24" >ی</Label>
+                        <Label  Width="32" Height="24" >د</Label>
+                        <Label  Width="32" Height="24" >س</Label>
+                        <Label  Width="32" Height="24" >چ</Label>
+                        <Label  Width="32" Height="24" >پ</Label>
+                        <Label  Width="32" Height="24" >ج</Label>
+                    </WrapPanel>
+                </Border>
+                <WrapPanel x:Name="CalendarDays" FlowDirection="RightToLeft" Margin="2,5,2,5">
+
+                </WrapPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,17 @@
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\bin\Release\ShamsiCalendar.dll
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\bin\Release\ShamsiCalendar.pdb
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\bin\Release\MD.PersianDateTime.dll
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\bin\Release\MD.PersianDateTime.pdb
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\bin\Release\MD.PersianDateTime.xml
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.csproj.AssemblyReference.cache
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar_MarkupCompile.cache
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar_MarkupCompile.lref
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.g.resources
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.Properties.Resources.resources
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.csproj.GenerateResource.cache
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.csproj.CoreCompileInputs.cache
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.csproj.CopyComplete
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.dll
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.pdb
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.g.cs
+C:\Users\dev-pc\source\repos\ShamsiCalendar\ShamsiCalendar\obj\Release\ShamsiCalendar.baml
